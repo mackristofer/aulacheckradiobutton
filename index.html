@@ -20,66 +20,66 @@
         <div class="topo-container">
             <img src="img/pesquisa.png" alt="Pesquisa">
         </div>
-        <div class="form-container">
+        <div class="form-container mt-3">
             <div class="form-group">
-                <label for="text">Informe seu nome</label>
-                <input type="text" class="form-control"/>
+                <label for="nome"><h4>Informe seu nome</h4></label>
+                <input type="text" id="nome" class="form-control"/>
             </div>
-            <div class="form-group">
-                <label for="html">Informe seu e-mail</label>
-                <input type="text" class="form-control"/>
+            <div class="form-group mt-3">
+                <label for="email"><h4>Informe seu e-mail</h4></label>
+                <input type="text" id="email" class="form-control"/>
             </div>
-            <div class="form-group">
-                <label>Informe seu sexo</label>
+            <div class="form-group mt-3">
+                <label><h4>Informe seu sexo</h4></label>
                 <div>
-                    <div class="exemplo2">
+                    <div class="sexo">
                         <input type="radio" name="sexo" id="m" value="0" class=""/>
                         <label for="m">M</label>
                     </div>
-                    <div class="exemplo2">
+                    <div class="sexo">
                         <input type="radio" name="sexo" value="1" id="f" class=""/>
                         <label for="f">F</label>
                     </div>
                 </div>
             </div>
-            <div class="form-group">
-                <label>Informe seu estado civil</label>
+            <div class="form-group mt-3">
+                <label><h4>Informe seu estado civil</h4></label>
                 <div>
-                    <div>
+                    <div class="estado-civil">
+                        <input type="radio" name="ec" id="casado" value="C" class=""/>
                         <label for="casado">Casado</label>
-                        <input type="radio" name="ec" value="C" class=""/>
                     </div>
-                    <div>
+                    <div class="estado-civil">
+                        <input type="radio" name="ec" value="S" id="solteiro" class=""/>
                         <label for="solteiro">Solteiro</label>
-                        <input type="radio" name="ec" value="S" class=""/>
                     </div>
                 </div>
             </div>
-            <div class="form-group">
-                <label>Preferencias de linguagens</label>
-                <div class="checkbox">
+            <div class="form-group mt-3">
+                <label><h4>Preferencias de linguagens</h4></label>
+                <div class="checkbox-lang">
                     <input type="checkbox" id="chk1" name="java" value="java" class="checkbox"/>
                     <label for="chk1">Java</label>
                 </div>
-                <div class="checkbox">
+                <div class="checkbox-lang mt-1">
                     <input type="checkbox" id="chk2" name="php" value="php" class=""/>
                     <label for="chk2">PHP</label>
                 </div>
-                <div class="checkbox">
+                <div class="checkbox-lang mt-1">
                     <input type="checkbox" id="chk3" name="python" value="python" class=""/>
                     <label for="chk3">Python</label>
                 </div>
-                <div class="checkbox">
+                <div class="checkbox-lang mt-1">
                     <input type="checkbox" id="chk4" name="c" value="c" class=""/>
                     <label for="chk4">C#</label>
                 </div>
-                <div class="checkbox">
+                <div class="checkbox-lang mt-1">
                     <input type="checkbox" id="chk5" name="net" value="net" class=""/>
                     <label for="chk5">.Net</label>
                 </div>
             </div>
-            <div class="form-group">
-                <label>Preferencia de frameworks</label>
+            <div class="form-group mt-3">
+                <label><h4>Preferencia de frameworks</h4></label>
                 <div>
                     <input type="checkbox" name="bootstrap" value="bootstrap" class=""/>
                     <label>Bootstrap</label>
@@ -89,8 +89,8 @@
                     <label>SpringBoot</label>
                 </div>
             </div>
-            <div class="form-group">
-                <label>Avaliação do atendimento</label>
+            <div class="form-group mt-3">
+                <label><h4>Avaliação do atendimento</h4></label>
                 <div>
                     <input type="radio" name="aa" value="boa" class=""/>
                     <label>Excelente</label>
